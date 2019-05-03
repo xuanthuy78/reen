@@ -1,0 +1,43 @@
+section.beautiful {
+  div.container {
+    margin: 115px auto;
+    div.responsive {
+      margin-bottom: 70px;
+      h2.title {
+        font-size: 44px;
+        font-family: "Lato", sans-serif;
+        font-weight: bold;
+        margin-bottom: 20px;
+      }
+      p.text {
+        font-size: 20px;
+        font-weight: 550;
+        color: #73879c;
+        text-indent: 28px;
+        letter-spacing: 0.3px;
+      }
+    }
+    div.items-beautiful {
+      div.item {
+        display: flex;
+        div.icon {
+          margin-right: 30px
+        }
+        div.content {
+          h3.title {
+            font-size: 26px;
+            font-family: "Lato", sans-serif;
+            font-weight: 500;
+            color: #506a85;
+            margin-bottom: 30px;
+          }
+          p.text {
+            font-size: 15px;
+            font-weight: 300;
+            color: #73879c;
+          }
+        }
+      }
+    }
+  }
+}

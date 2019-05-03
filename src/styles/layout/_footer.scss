@@ -1,0 +1,134 @@
+footer.footer-container {
+  .footer-content {
+    background: #2f4052;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    .who-we {
+      .title {
+        h4.who {
+          font-size: 16px;
+          font-family: "Lato", sans-serif;
+          font-weight: bold;
+          color: #ffff;
+          margin-bottom: 20px;
+          letter-spacing: 2px;
+        }
+      }
+      .text {
+        color: #a3b1bf;
+        font-size: 14px;
+        .content {
+          margin: 25px auto;
+        }
+        .about-us {
+          font-weight: bold;
+          .fas {
+            margin-left: 10px;
+          }
+        }
+      }
+    }
+    .latest-worlk {
+      h4.title {
+        font-size: 16px;
+        font-family: "Lato", sans-serif;
+        font-weight: bold;
+        color: #ffff;
+        margin-bottom: 20px;
+        letter-spacing: 2px;
+      }
+    }
+    .get-in-touch {
+      .content-footer {
+        margin-bottom: 20px;
+      }
+      .text-footer {
+        a {
+          color: #a3b1bf;
+          .fas,
+          .far {
+            margin-right: 10px;
+          }
+        }
+      }
+    }
+    .updates {
+      form.card {
+        border: 1px solid #4e5c6c;
+        margin-top: 20px;
+        .card-body {
+          padding: 5px;
+          background-color: #4e5c6c;
+          input.form-control {
+            background: #4e5c6c;
+            color: #ffff;
+          }
+          input::placeholder {
+            font-size: 12px;
+            color: #76838f;
+          }
+          input.form-control-borderless {
+            border: none;
+          }
+          input.form-control-borderless:hover,
+          .form-control-borderless:active,
+          .form-control-borderless:focus {
+            border: none;
+            outline: none;
+            box-shadow: none;
+          }
+          button.btn-success {
+            background: #00bc9c;
+            font-weight: bold;
+          }
+        }
+      }
+    }
+  }
+  .copyright {
+    background: #283645;
+    .navbar {
+      background: #283645;
+      a.navbar-brand {
+        font-size: 14px;
+        font-weight: bold;
+        color: #707e8c;
+      }
+      div.collapse {
+        ul.navbar-nav {
+          li.nav-item {
+            position: relative;
+            margin-left: 10px;
+            &::before {
+              position: absolute;
+              content: '.';
+              top: 2px;
+              left: -8px;
+            }
+            &:first-child {
+              color: #283645;
+            }
+          }
+          a.nav-link {
+            font-size: 14px;
+            font-weight: bold;
+            color: #707e8c;
+          }
+        }
+      }
+    }
+  }
+}
+
+main .banner .clock li{
+  position: relative;
+}
+
+main .banner .clock li::before {
+  position: absolute;
+  content: '';
+  width: 1px;
+  height: 20px;
+  background: #FFFFFF;
+  top: 8px;
+}

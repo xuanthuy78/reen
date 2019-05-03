@@ -1,0 +1,114 @@
+section.checkout-site {
+  background: #f2f5f7;
+  padding-top: 110px;
+  padding-bottom: 110px;
+  .container {
+    .title-checkout-site {
+      h3.text-center {
+        font-size: 44px;
+        font-family: "Lato", sans-serif;
+        font-weight: 600;
+        color: #506a85;
+      }
+      p.text {
+        font-size: 22px;
+        color: #73879c;
+        margin: 40px auto 80px auto;
+      }
+    }
+    .list-checkout-site {
+      margin-bottom: 80px;
+      div.card {
+        h4.card-title {
+          font-size: 20px;
+          font-weight: 600;
+          font-family: 'Lato', sans-serif;
+        }
+        p.card-text {
+          font-size: 14px;
+          font-weight: 500;
+          color: #73879c;
+        }
+      }
+    }
+    .muti-slider {
+      .slide-box {
+        img {
+          max-width: 260px;
+        } 
+      } 
+    }
+  }
+}
+.carousel {
+  width: 100%;
+}
+
+.slide-box {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .slide-box img {
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .slide-box img {
+    -ms-flex: 0 0 33.3333%;
+    flex: 0 0 33.3333%;
+    max-width: 33.3333%;
+  }
+}
+
+@media (min-width: 992px)
+{
+  .slide-box img {
+    -ms-flex: 0 0 25%;
+    flex: 0 0 25%;
+    max-width: 25%;
+  }
+}
+
+.carousel-caption {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  border-radius: .5rem;
+}
+
+.carousel-indicators--round li {
+  border-radius: 10px;
+  margin: 1px 3px;
+  height: 10px;
+  max-width: 10px;
+  border: 1px solid #fff;
+  background-color: transparent;
+  margin-top: 60px;
+}
+
+.carousel-indicators .active {
+  background-color: #00bc9c;
+  max-width: 12px;
+  margin: 0 3px;
+  height: 12px;
+}
+
+.carousel-indicators li {
+  border-radius: 50%;
+  width: 12px;
+  height: 12px;
+  background-color: #506a85;
+}
+
+.carousel-caption {
+  bottom: 14% !important;
+}
+
+.carousel-indicators  {
+  bottom: 30px;
+  top: 200px;
+}

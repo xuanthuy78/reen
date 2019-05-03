@@ -1,0 +1,25 @@
+.header-container {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background: #f5f7fa;
+  border-bottom: 1px solid #e6e9ed;
+  font-size: 12px;
+  font-weight: 600;
+  .top-left {
+    .nav-links {
+      margin-right: 28px;
+      color: #5a728c;
+    
+      .fas, .far {
+        margin-right: 8px;
+      }
+    }
+  }
+  .top-right {
+    .nav-links {
+      margin-left: 20px;
+      color: #5a728c;
+    }
+  }
+}
+
