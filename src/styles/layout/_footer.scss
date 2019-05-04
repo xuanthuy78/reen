@@ -108,7 +108,7 @@ footer.footer-container {
       }
       div.collapse {
         ul.navbar-nav {
-          li.nav-item {
+          li.menu-border {
             position: relative;
             margin-left: 10px;
             &::before {
@@ -116,9 +116,6 @@ footer.footer-container {
               content: '.';
               top: 2px;
               left: -8px;
-            }
-            &:first-child {
-              color: #283645;
             }
           }
           a.nav-link {
