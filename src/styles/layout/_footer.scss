@@ -37,6 +37,14 @@ footer.footer-container {
         margin-bottom: 20px;
         letter-spacing: 2px;
       }
+      .list-img-latest-worlk {
+        .items {
+          display: flex;
+          .item {
+            margin: 0 0 2px 2px;
+          }
+        }
+      }
     }
     .get-in-touch {
       .content-footer {
@@ -87,8 +95,12 @@ footer.footer-container {
   }
   .copyright {
     background: #283645;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    position: relative;
     .navbar {
       background: #283645;
+      padding: 0;
       a.navbar-brand {
         font-size: 14px;
         font-weight: bold;
@@ -117,18 +129,14 @@ footer.footer-container {
         }
       }
     }
+    .btn-footer {
+      position: absolute;
+      bottom: 20px;
+      right: 20px;
+      button.btn {
+        background: #3c5065;
+        border-color: #3c5065;
+      }
+    }
   }
-}
-
-main .banner .clock li{
-  position: relative;
-}
-
-main .banner .clock li::before {
-  position: absolute;
-  content: '';
-  width: 1px;
-  height: 20px;
-  background: #FFFFFF;
-  top: 8px;
 }
